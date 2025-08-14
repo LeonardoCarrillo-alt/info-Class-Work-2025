@@ -1,0 +1,7 @@
+-----------Intro a Arcade
+
+libreria de python, no es un motor(engine) de videojuegos ni un framework, por lo que es bastante extensible
+y simple de trabajar usando solamente las funciones requeridas. 
+
+
+

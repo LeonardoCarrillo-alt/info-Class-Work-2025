@@ -1,0 +1,6 @@
+se usa para describir y controlar el gameplay. El game loop se encraga de: 
+
+    1. Procesar la entrada de usario. 
+    2. actualiza el estado de todos los objetos. 
+    3. actualizar (renderizar) la pantalla y el audio. 
+    4. mantener la ejecucion veloz y constante

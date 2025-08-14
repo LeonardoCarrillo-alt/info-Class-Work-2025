@@ -1,0 +1,53 @@
+
+y = mx + B
+
+m = delta(y)/delta(x)
+
+deltaX Y = delta(y x) + delta(x b)
+0 = delta(y x) - delta(x y) + delta(x b)
+F(x,y)= delta(y x) - delta(x y) + delta(x b) =0
+
+si F(x,y)>0 entonces se pinta la parte superior del cuadrado (el triangulo superior)
+si F(x,y)<0 entonces se pinta la parte inferior del cuadrado (el triangulo inferior)
+
+A = delta(y) = y1-y0
+B=delta(x)= x1-x0
+C=(x1-x0) b
+
+F(x,y) = Ax + By + C = 0 
+
+F = 2 dy x - 2dx y + c = 0
+
+F(x_0, y_0)=0
+F(x_k+1, y_k+1/2)
+2dy (x_k+1) - 2dx (y_k+1/2) + c =0
+
+D= 2dy x_k + 2dy- 2dx y_k - dx + c 
+
+D>0 arriba
+D<0 abajo
+
+
+para dibujar la recta
+
+
+P1 = (1,0)
+
+P2=(6,2)
+
+delta(x) = 5
+delta(y) = 2
+
+(P_K = 2delta(y) - delta(x))
+P_k = 2(2)-5
+
+P_k+1 = P_k + 2delta(y)
+P_k = -1 +2(2) = 3
+
+P_k+1 = Pk +2delta(y) -2delta(x)
+p_k = 3 + 2(2) -2(5) = -3
+
+p_k = -3 + 2(2) = 1
+
+P_k = 1 + 2(2) -2(5) = -5 
+

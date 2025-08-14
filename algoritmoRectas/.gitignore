@@ -1,0 +1,10 @@
+# Entorno virtual Python
+.venv/
+venv/
+
+# Archivos adicionales para ignorar (opcional)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store  # (Solo macOS)
