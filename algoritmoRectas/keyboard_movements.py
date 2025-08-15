@@ -7,12 +7,17 @@ MOVEMENT_SPEED = 8
 
 class Player(arcade.Sprite):
     def __init__(self, scale = 1, center_x = 0, center_y = 0):
-        super().__init__("4._sprites/img/mario.png", scale, center_x, center_y)
+        super().__init__("algoritmoRectas/img/mario.png", scale, center_x, center_y)
         self.score = 0
 
     def update(self, delta_time: float = 1/60):
+        #simulacion de movimiento de un sprite (movimiento rectilineo uniforme)
         self.center_x += self.change_x
         self.center_y += self.change_y
+
+        #x_k+1 = x_k +dx
+        self.center_x = self.center_x + self.change_x
+
     
     def check_coins(self, coins: arcade.SpriteList):
         for coin in coins:
@@ -39,7 +44,7 @@ class Bullet(arcade.SpriteSolidColor):
 
 class Coin(arcade.Sprite):
     def __init__(self, scale = 1, center_x = 0, center_y = 0):
-        super().__init__("4._sprites/img/coin.png", scale, center_x, center_y)
+        super().__init__("algoritmoRectas/img/coin.png", scale, center_x, center_y)
 
 
 class KeyboardMovementView(arcade.View):
